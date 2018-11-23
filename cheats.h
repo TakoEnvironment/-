@@ -5,6 +5,6 @@
 
   /**関数プロトタイプ宣言**/
 
-void	Boss(void);
+void	sample(void);
 
 #endif
