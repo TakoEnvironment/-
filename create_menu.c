@@ -66,5 +66,5 @@ char	*builder_name = "TAKO";
 
 void	my_menus(void)
 {
-	new_entry("Boss rank Yo-Kai!", Boss);
+	new_entry("Movement", sample);
 }
