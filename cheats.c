@@ -18,10 +18,10 @@ void sample(void){
 			WRITEFLOAT_M(0x0C51D200,SPEED);
 		}
 		if(is_pressed(DU)){
-			WRITEFLOAT_P(0x0C51D200,SPEED);
+			WRITEFLOAT_P(0x0C51D208,SPEED);
 		}
 		if(is_pressed(DD)){
-			WRITEFLOAT_M(0x0C51D200,SPEED);
+			WRITEFLOAT_M(0x0C51D208,SPEED);
 		}
 	}
 }
