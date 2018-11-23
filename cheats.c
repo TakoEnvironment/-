@@ -3,6 +3,8 @@
 #include "hid.h"
 #include "values.h"
 #include <string.h>
+
+/**ここから下の部分を付け加える**/
 #define WRITEFLOAT_P(address, value) *(u32*)(address) += (u32)(value)
 #define WRITEFLOAT_M(address, value) *(u32*)(address) -= (u32)(value)
 #define SPEED 2  //座標移動のスピード(1の部分)これを#define SPEED 3 みたいに自分好みの速度にする
