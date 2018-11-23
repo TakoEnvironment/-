@@ -1,0 +1,2 @@
+#define WRITEFLOAT_P(address, value) *(float*)(address) += (float)(value)
+#define WRITEFLOAT_M(address, value) *(float*)(address) -= (float)(value)
